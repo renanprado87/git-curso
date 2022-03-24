@@ -5,3 +5,4 @@ git status - verifica se tem commits pendentes
 git add * - adiciona arquivos ao projeto (* ou . adicona todos os arquivos0)
 git commit -m "Comentário" - Comita os projetos
 git log - logs dos commits
+git log --one line - Log do commit em uma linha
