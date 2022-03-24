@@ -4,5 +4,16 @@ git init  - cria um projeto local
 git status - verifica se tem commits pendentes
 git add * - adiciona arquivos ao projeto (* ou . adicona todos os arquivos0)
 git commit -m "Comentário" - Comita os projetos
+gti commit -am "Comentário" - Adicona ao conteiner e cria um commit ao mesmo tempo
+
 git log - logs dos commits
 git log --one line - Log do commit em uma linha
+git log --graph - Mostra em desenho de grafos os commits
+git log --oneline --grap - Mostra grafos de commits em uma linha
+
+git checkout 23314xxx - Restaura e rastreia para a versão escolhid
+git checkout master - retorna ao brench anterior
+git diff - demonstra o que foi alterado e acrescentado e removido
+git checkout "nome do arquivo" - Desfaz alteração no arquivo
+git reset HEAD - Reseta commit feito no HEAD para liberar diff
+git reset --hard (hash anterior do master) - volta na versão anterior
